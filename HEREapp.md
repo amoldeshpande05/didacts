@@ -296,7 +296,7 @@
       <div class="container right" style="margin-top:0px;padding-top:0px;">
          <div class="content">
             <p>To begin, you will need the application's source code. Click `Get the code` to clone the code to your playground session.</p>
-            <a class="button is-dark is-medium" title="Get the Code" href="didact://?commandId=extension.sendToTerminal&text=HEREGeocodingandSearch%7Cget-code%7CHEREGeocodingandSearch|git%20clone%20-b%20HERE%20--sparse%20https://github.com/IBM/Developer-Playground.git%20${CHE_PROJECTS_ROOT}/here-geocoding/%20%26%26%20cd%20${CHE_PROJECTS_ROOT}/here-geocoding/%20%26%26%20git%20sparse-checkout%20init%20--cone%20%26%26%20git%20sparse-checkout%20add%20HEREGeocodingandSearch">Get the Code</a> 
+            <a class="button is-dark is-medium" title="Get the Code" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=theia%20terminal$$git%20clone%20-b%20HERE%20--sparse%20https://github.com/IBM/Developer-Playground.git%20${CHE_PROJECTS_ROOT}/here-geocoding/%20%26%26%20cd%20${CHE_PROJECTS_ROOT}/here-geocoding/%20%26%26%20git%20sparse-checkout%20init%20--cone%20%26%26%20git%20sparse-checkout%20add%20HEREGeocodingandSearch">Get the Code</a> 
          </div>
       </div>
       <div class="container right">
@@ -317,14 +317,14 @@
       <div class="container right">
          <div class="content">
             <p>Let's get the credentials by configuring the application</p>
-            </p> <a class="button is-dark is-medium" title="Open the File" href="didact://?commandId=vscode.open&projectFilePath=/projects/apptest/HEREGeocodingandSearch/.env">Configure the Application</a> 
+            </p> <a class="button is-dark is-medium" title="Open the File" href="didact://?commandId=vscode.open&projectFilePath=/here-geocoding/HEREGeocodingandSearch/.env">Configure the Application</a> 
          </div>
       </div>
       <div class="container right">
          <div class="content">
             <p>You've successfully cloned the code, so click `Build the application` to start the build process.</p>
              <a class="button is-dark is-medium" title="Open Terminal" href="didact://?commandId=terminal-for-podman-priv/priv-container:new">Open Terminal</a>
-            <a class="button is-dark is-medium" title="Build the Application" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@workspacea6c8zjx8r2s6f093:/projects/apptest$$podman%20run%20-v%20/projects/apptest/HEREGeocodingandSearch:/projects%20-it%20docker.io/amoldeshpande/sampleapp1-v1:latest%20bin/bash">Pull the Image</a>
+            <a class="button is-dark is-medium" title="Build the Application" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@workspaceplpocao5vnfy8n95:/projects$$podman%20run%20-v%20/${CHE_PROJECTS_ROOT}/here-geocoding/HEREGeocodingandSearch:/projects%20-it%20docker.io/amoldeshpande/sampleapp1-v1:latest%20bin/bash">Pull the Image</a>
          </div>
       </div>
       <div class="container right">
