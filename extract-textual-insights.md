@@ -385,20 +385,20 @@
       <div style="margin-top:0;"class="container right">
          <div class="content">
             <p>To begin, we'll need to open the terminal.</p>
-            <a class="button is-dark is-medium" title="Open Terminal" href="didact://?commandId=terminal-for-nodejs-container:new">Open Terminal</a>
+            <a class="button is-dark is-medium" title="Open Terminal" href="didact://?commandId=terminal-for-ibmcloud-container:new">Open Terminal</a>
          </div>
       </div>
       <div class="container right">
          <div class="content">
             <p>Clone the GitHub repository</p>
-            <a class="button is-dark is-medium" title="Clone the Repo" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs%20terminal$$git%20clone%20https%3A%2F%2Fgithub.com%2FIBM%2Fextract-textual-insights-from-video.git%20%26%26%20cd%20extract-textual-insights-from-video%2F%20%26%26%20pip3.8%20install%20-r%20requirements.txt" >Get Code</a>
+            <a class="button is-dark is-medium" title="Clone the Repo" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=ibmcloud%20terminal$$git%20clone%20https%3A%2F%2Fgithub.com%2FIBM%2Fextract-textual-insights-from-video.git%20%26%26%20cd%20extract-textual-insights-from-video%2F%20%26%26%20pip3.8%20install%20-r%20requirements.txt" >Get Code</a>
          </div>
       </div>
       <div class="container right">
          <div class="content">
             <p>Create and Configure IBM Watson Services</p>
             <p>You need to be logged in to your IBM Cloud account in the Developer Playground to create and configure services.</p>
-            <a class="button is-dark is-medium" title="Login to IBM Cloud" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs%20terminal$$ibmcloud%20login%20--sso%20%26%26%20ibmcloud%20target%20--cf%20%26%26%20ibmcloud%20target%20-g%20Default">Login to IBM Cloud</a>
+            <a class="button is-dark is-medium" title="Login to IBM Cloud" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=ibmcloud%20terminal$$ibmcloud%20login%20--sso%20%26%26%20ibmcloud%20target%20--cf%20%26%26%20ibmcloud%20target%20-g%20Default">Login to IBM Cloud</a>
             <p style="margin-top:10px;">Do not have an IBM Cloud Account?<a href="https://cloud.ibm.com/registration">click here</a> to create one for free.</p>
          </div>
       </div>
@@ -413,7 +413,7 @@
       <div class="container right">
          <div class="content">
             <p>Create these services and configure the credentials in the code pattern with just a click of button.</p>
-            <a class="button is-dark is-medium" title="Create IBM Watson Services" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs%20terminal$$chmod%20%2Bx%20.%2Fcreate-ibm-cloud-services.sh%20%26%26%20.%2Fcreate-ibm-cloud-services.sh" >Create IBM Watson Services</a>
+            <a class="button is-dark is-medium" title="Create IBM Watson Services" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=ibmcloud%20terminal$$chmod%20%2Bx%20.%2Fcreate-ibm-cloud-services.sh%20%26%26%20.%2Fcreate-ibm-cloud-services.sh" >Create IBM Watson Services</a>
          </div>
       </div>
       <div class="container right">
@@ -424,10 +424,21 @@
                <bold>Build and Run</bold>
                to start the application.
             </p>
-            <a class="button is-dark is-medium" title="Build and Run" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs%20terminal$$python3.8%20app.py">Build and Run</a>
+            <a class="button is-dark is-medium" title="Open Terminal" href="didact://?commandId=terminal-for-podman-priv/priv-container:new">Open Podman Terminal</a>
+            <a class="button is-dark is-medium" title="Pull and Mount the Volume" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@workspaceplpocao5vnfy8n95:/projects$$podman%20run%20-v%20/${CHE_PROJECTS_ROOT}/extract-textual-insights-from-video:/projects%20-it%20docker.io/amoldeshpande/codepattern-1-env:latest%20bin/bash">Pull the image and Mount the Volume</a>
          </div>
       </div>
-   </div>
+      <div class="container right">
+         <div class="content">
+            <p>Build and Run the Application</p>
+            <p>
+               You can build and run the Application within the Developer Playground, click on 
+               <bold>Build and Run</bold>
+               to start the application.
+            </p>
+            <a class="button is-dark is-medium" title="Open Terminal" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@workspaceplpocao5vnfy8n95:/projects$$cd%20projects%20%26%26%20python%20app.py">Run Application</a>
+         </div>
+      </div>
    <div class="footer">
       <div class="content" style="padding:30px;padding-left:60px;padding-bottom: 0px;">
          <p>If you'd like to make changes and explore the application, make sure to stop it first!</p>
