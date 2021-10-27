@@ -337,7 +337,7 @@
    <div class="footer">
       <div class="content" style="padding:30px;padding-left:60px;padding-bottom: 0px;">
          <p>If you'd like to make changes and explore the application, make sure to stop it first!</p>
-         <a class="button is-dark is-medium" title="Stop Application" href="didact://?commandId=vscode.didact.sendNamedTerminalCtrlC&text=HEREGeocodingandSearch">Stop Application</a>
+         <a class="button is-dark is-medium" title="Stop Application" href="didact://?commandId=vscode.didact.sendNamedTerminalCtrlC&text=podman-priv/priv:%20@workspaceplpocao5vnfy8n95:/projects">Stop Application</a>
          <p class="afterbutton">The stage is yours!</p>
          <a class="button is-dark is-medium" title="Explore the Code" href="didact://?commandId=extension.openFile&text=HEREGeocodingandSearch%7Cexplore-code%7C${CHE_PROJECTS_ROOT}/here-geocoding/HEREGeocodingandSearch/src/App.js">Explore the Code</a>
          <p class="afterbutton ">To view the changes you've made, re-launch the application</p>
