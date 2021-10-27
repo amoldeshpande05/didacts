@@ -324,13 +324,13 @@
          <div class="content">
             <p>You've successfully cloned the code, so click `Build the application` to start the build process.</p>
              <a class="button is-dark is-medium" title="Open Terminal" href="didact://?commandId=terminal-for-podman-priv/priv-container:new">Open Terminal</a>
-            <a class="button is-dark is-medium" title="Build the Application" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@${CHE_WORKSPACE_ID}:/projects$$podman%20run%20-v%20/${CHE_PROJECTS_ROOT}/here-geocoding/HEREGeocodingandSearch:/projects%20-it%20docker.io/amoldeshpande/sampleapp1-v1:latest%20bin/bash">Pull the Image</a>
+            <a class="button is-dark is-medium" title="Build the Application" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@workspaceplpocao5vnfy8n95:/projects$$podman%20run%20-v%20/${CHE_PROJECTS_ROOT}/here-geocoding/HEREGeocodingandSearch:/projects%20-it%20docker.io/amoldeshpande/sampleapp1-v1:latest%20bin/bash">Pull the Image</a>
          </div>
       </div>
       <div class="container right">
          <div class="content">
             <p>You're all set to get started! </p>
-            <a class="button is-dark is-medium" title="Launch the Application" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@${CHE_WORKSPACE_ID}:/projects/apptest$$cd%20projects%20%26%26%20node%20token.js%20%26%26%20node%20server.js">Launch the Application</a> 
+            <a class="button is-dark is-medium" title="Launch the Application" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=podman-priv/priv:%20@workspaceplpocao5vnfy8n95:/projects$$cd%20projects%20%26%26%20node%20token.js%20%26%26%20node%20server.js">Launch the Application</a> 
          </div>
       </div>
    </div>
